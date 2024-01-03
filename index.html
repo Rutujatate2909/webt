@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CAKESHOP WEBSITE </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header class="header">
+    <a href="content.html" class="logo"> <i class="fas fa-shopping-basket"></i>cake </a>
+     
+<nav class="navbar">
+    <a href="home.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="review.html">Review</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">Contact</a>  
+    
+</nav>
+
+<div class="icons">
+<div id="menu-btn" class="fas fa-bars"></div>
+<div id="search-btn" class="fas fa-search"></div>
+<div id="cart-btn" class="fas fa-shopping-cart"></div>
+<div id="login-btn" class="fas fa-user"></div>
+ </div>
+
+ <form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="search here..">
+    <label for="search-box" class="fas-fa-search" ></label>
+ </form>
+    <div class="shopping-cart">
+        <div class="box">
+        </div>
+    </div>            
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="index.html">click here</a> </p>
+        <p>dont have an account <a href="index.html">create here</a> </p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+    </div>
+   </div>
+</header>
+<form>
+       </form>
+    </div>
+</div>
+
+    <!----home section-->
+
+<section class="home" id="home">
+    <div class="slides-container">
+        <div class="slide active">
+            <div class="content">
+                <span>Have A Cake-A-Delicious</span>
+                <h3>upto 10% off</h3>
+                <a href="home.html" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="chocolate cake 1.jpg" alt="">
+            </div>
+        </div>
+           <div class="slide">
+                <div class="content">
+                    <span>Have A surprise cake</span>
+                    <h3>Upto 10% Off</h3>
+                    <a href="home.html" class="btn">Shop Now</a>
+                </div>
+                <div class="img">
+                    <img src="chocolate cake 2.jpg" alt="">
+    </div>
+    </div>
+    <div class="slide">
+        <div class="content">
+            <span>Have A party cake</span>
+            <h3>Upto 10% Off</h3>
+            <a href="home.html" class="btn">Shop Now</a>
+        </div>
+        <div class="img">
+            <img src="background img.jpg" alt="">
+</div>
+</div>
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+<section class="banner-container">
+        <div class="banner">
+        <img src="banner 1.jpg"  alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 10% off</h3>
+        <a href="home.html" class="btn">shop now</a>
+    </div>
+    </div>
+      
+    <div class="banner">
+        <img src="cake 2.jpg"  alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 10% off</h3>
+        <a href="home.html" class="btn">shop now</a>
+    </div>
+    </div>
+      
+    <div class="banner">
+        <img src="cake 3.jpg"  alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 10% off</h3>
+        <a href="home.html" class="btn">shop now</a>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!----category-->
+<div class="heading">
+    <h1>our Shop</h1>
+    
+</div>
+
+<section class="category">
+
+<h1 class="title"> our <span>category(flavours of cake)</span> <a href="shop.html"> View All >> </a> </h1>
+
+<div class="box-container">
+<a href="shop.html" class="box">
+    <img src="img cat 1.jpg" alt="">
+    <h3>fresh cupcake</h3>
+</a>
+<a href="shop.html" class="box">
+    <img src="img cat 2.jpg" alt="">
+    <h3>dark chocolate</h3>
+</a>
+<a href="shop.html" class="box">
+    <img src="img cat 3.jpg" alt="">
+    <h3>white chooclate</h3>
+</a>
+<a href="shop.html" class="box">
+    <img src="img cat 4.jpg" alt="">
+    <h3>red welvet</h3>
+</a>
+<a href="shop.html" class="box">
+    <img src="img cat 5.jpg" alt="">
+    <h3>pineapple</h3>
+</a>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--products-->
+
+
+<section class="products">
+    <h1 class="title"> our <span>products(special cakes)</span> <a href="shop.html">View All >></a> </h1>
+    <div class="box-container">
+<div class="box">
+    <div class="icons">
+        <a href="shop.html" class="fas fa-shopping-cart"></a>
+        <a href="shop.html" class="fas fa-heart"></a>
+        <a href="shop.html" class="fas fa-eye"></a>
+    </div>
+    <div class="img">
+        <img src="banner 1.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>Dark chocolate</h3>
+        <div class="price">#500 RS for per kg</div>
+        <div class="stars">
+        <i class="fas fa-stars"></i>
+        <i class="fas fa-stars"></i>
+        <i class="fas fa-stars"></i>  
+        <i class="fas fa-stars"></i>
+        <i class="far fa-stars"></i>
+    </div>
+</div>
+    </div>
+    <div class="box">
+        <div class="icons">
+            <a href="shop.html" class="fas fa-shopping-cart"></a>
+            <a href="shop.html" class="fas fa-heart"></a>
+            <a href="shop.html" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="banner 2.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Dark chocolate</h3>
+            <div class="price">#500 RS for per kg</div>
+            <div class="stars">
+            <i class="fas fa-stars"></i>
+            <i class="fas fa-stars"></i>
+            <i class="fas fa-stars"></i>  
+            <i class="fas fa-stars"></i>
+            <i class="far fa-stars"></i>
+        </div>
+    </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="shop.html" class="fas fa-shopping-cart"></a>
+                <a href="shop.html" class="fas fa-heart"></a>
+                <a href="shop.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img src="banner 3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Dark chocolate</h3>
+                <div class="price">#500 RS for per kg</div>
+                <div class="stars">
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>  
+                <i class="fas fa-stars"></i>
+                <i class="far fa-stars"></i>
+            </div>
+        </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="shop.html" class="fas fa-shopping-cart"></a>
+                    <a href="shop.html" class="fas fa-heart"></a>
+                    <a href="shop.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="banner 4.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dark chocolate</h3>
+                    <div class="price">#500 RS for per kg</div>
+                    <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>  
+                    <i class="fas fa-stars"></i>
+                    <i class="far fa-stars"></i>
+                </div>
+            </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="shop.html" class="fas fa-shopping-cart"></a>
+                        <a href="shop.html" class="fas fa-heart"></a>
+                        <a href="shop.html" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="banner 5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Dark chocolate</h3>
+                        <div class="price">#500 RS for per kg</div>
+                        <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>  
+                        <i class="fas fa-stars"></i>
+                
+                +        <i class="far fa-stars"></i>
+                    </div>
+                </div>
+                    </div>
+                    <div class="box">
+                        <div class="icons">
+                            <a href="shop.html" class="fas fa-shopping-cart"></a>
+                            <a href="shop.html" class="fas fa-heart"></a>
+                            <a href="shop.html" class="fas fa-eye"></a>
+                        </div>
+                        <div class="img">
+                            <img src="banner 6.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Dark chocolate</h3>
+                            <div class="price">#500 RS for per kg</div>
+                            <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>  
+                            <i class="fas fa-stars"></i>
+                            <i class="far fa-stars"></i>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="box">
+                            <div class="icons">
+                                <a href="shop.html" class="fas fa-shopping-cart"></a>
+                                <a href="shop.html" class="fas fa-heart"></a>
+                                <a href="shop.html" class="fas fa-eye"></a>
+                            </div>
+                            <div class="img">
+                                <img src="banner 7.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Dark chocolate</h3>
+                                <div class="price">#500 RS for per kg</div>
+                                <div class="stars">
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>  
+                                <i class="fas fa-stars"></i>
+                                <i class="far fa-stars"></i>
+                            </div>
+                        </div>
+                            </div>
+                            <div class="box">
+                                <div class="icons">
+                                    <a href="shop.html" class="fas fa-shopping-cart"></a>
+                                    <a href="shop.html" class="fas fa-heart"></a>
+                                    <a href="shop.html" class="fas fa-eye"></a>
+                                </div>
+                                <div class="img">
+                                    <img src="banner 8.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h3>Dark chocolate</h3>
+                                    <div class="price">#500 RS for per kg</div>
+                                    <div class="stars">
+                                    <i class="fas fa-stars"></i>
+                                    <i class="fas fa-stars"></i>
+                                    <i class="fas fa-stars"></i>  
+                                    <i class="fas fa-stars"></i>
+                                    <i class="far fa-stars"></i>
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+</section>
+
+
+        
+        
+
+<!--about-->
+
+<div class="heading">
+    <h1>About us</h1>
+</div>
+<section class="About">
+    <div class="img">
+        <img src="banner 1.jpg" alt="">
+    </div>
+    <div class="content">
+        <span>welcome product</span>
+        <h3> Cake-A-Delicious our --products--</h3>
+        <p>It was baked using flour mixed with eggs, milk, nuts, and honey. They also had a cake called "satura", which was a flat heavy cake. During the Roman period, the name for cake became "placenta" which was derived from the Greek term. A placenta was baked on a pastry base or inside a pastry case.[3]
+              Early cakes in india were also essentially bread: the most obvious differences between a "cake" and "bread" were the round, flat shape of the cakes, and the cooking method, which turned cakes over once while cooking, while bread was left upright throughout the baking process.[5]</p>
+         <p>Cake is a flour confection made from flour, sugar, and other ingredients, and is usually baked. In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate, and which share features with desserts such as pastries, meringues, custards, and pies.
+         The most common ingredients include flour, sugar, eggs, fat (such as butter, oil or margarine), a liquid, and a leavening agent, such as baking soda or baking powder. Common additional ingredients include dried, candied, or fresh fruit, nuts, cocoa, and extracts such as vanilla, with numerous substitutions for the primary ingredients. Cakes can also be filled with fruit preserves, nuts or dessert sauces (like custard, jelly, cooked fruit, whipped cream or syrups),[1] iced with buttercream or other icings, and decorated with marzipan, piped borders, or candied fruit.
+             Cake is often served as a celebratory dish on ceremonial occasions, such as weddings, anniversaries, and birthdays. There are countless cake recipes; some are bread-like, some are rich and elaborate, and many are centuries old. Cake making is no longer a complicated procedure; while at one time considerable labor went into cake making (particularly the whisking of egg foams), baking equipment and directions have been simplified so that even the most amateur of cooks may bake a cake.</p>
+        <a href="about.html" class="btn">Read More</a>
+    </div>
+    </section>
+    <!---gallery-->
+<section class="gallery">
+    <h1 class="title">Our<span>Gallery</span><a href="about.html">View All >> </a></h1>
+       <div class="box-container">
+        <div class="box">
+            <img src="download.jpg" alt="">
+            <div class="icons">
+                <a href="about.html" class="fas fa-eye"></a>
+                <a href="about.html" class="fas fa-heart"></a>
+                <a href="about.html" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="banner 5.jpg" alt="">
+            <div class="icons">
+                <a href="about.html" class="fas fa-eye"></a>
+                <a href="about.html" class="fas fa-heart"></a>
+                <a href="about.html" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img cat 5.jpg" alt="">
+            <div class="icons">
+                <a href="about.html" class="fas fa-eye"></a>
+                <a href="about.html" class="fas fa-heart"></a>
+                <a href="about.html" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img cat 1.jpg" alt="">
+            <div class="icons">
+                <a href="about.html" class="fas fa-eye"></a>
+                <a href="about.html" class="fas fa-heart"></a>
+                <a href="about.html" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="banner 7.jpg" alt="">
+            <div class="icons">
+                <a href="about.html" class="fas fa-eye"></a>
+                <a href="about.html" class="fas fa-heart"></a>
+                <a href="about.html" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cake 2.jpg" alt="">
+            <div class="icons">
+                <a href="about.html" class="fas fa-eye"></a>
+                <a href="about.html" class="fas fa-heart"></a>
+                <a href="about.html" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="banner 4.webp" alt="">
+            <div class="icons">
+                <a href="about.html" class="fas fa-eye"></a>
+                <a href="about.html" class="fas fa-heart"></a>
+                <a href="about.html" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="banner 2.jpg" alt="">
+            <div class="icons">
+                <a href="about.html" class="fas fa-eye"></a>
+                <a href="about.html" class="fas fa-heart"></a>
+                <a href="about.html"class="fas fa-share-alt"></a>
+            </div>
+        </div>
+       </div> 
+</section>
+<div class="heading">
+<h1>client's review</h1>
+</div>
+
+<section class="info-container">
+    <div class="info">
+        <img src="icons 1.png" alt="">
+        <div class="content">
+            <h3>fast delivary or free home delivary</h3>
+            <span>within 30 min</span>
+        </div>
+    </div>
+    <div class="info-container">
+        <div class="info">
+            <img src="icons 2.jpg" alt="">
+            <div class="content">
+                <h3>24 / 7 available</h3>
+                <span>call us any time</span>
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="info">
+                <img src="icons 3.jpg" alt="">
+                <div class="content">
+                    <h3>easy payment</h3>
+                    <span>cash or credit</span>
+                </div>
+            </div>
+        
+        </section>
+
+        <!--review-->
+
+
+      <section class="review">
+      <div class="box">
+      <div class="user">
+        <img src="client 1.jpg" alt="">
+        <div class="info">
+            <h3>special cakes</h3>
+            <span>happy client</span>
+        </div>
+      </div>
+      <p> Cake is often served as a celebratory dish on ceremonial occasions, such as weddings, anniversaries, and birthdays nidhi.,quis</p>
+</div>
+<div class="box">
+    <div class="user">
+      <img src="client 2.jpg" alt="">
+      <div class="info">
+          <h3>superb cakes</h3>
+          <span>happy client</span>
+      </div>
+    </div>
+    <p>cakes are very delicious and very testy.,dolly</p>
+</div>
+<div class="box">
+    <div class="user">
+      <img src="client 3.jpg" alt="">
+      <div class="info">
+          <h3>very nice cakes</h3>
+          <span>happy client</span>
+      </div>
+    </div>
+    <p></p>
+</div>
+
+      </section>
+
+<!--blog-->
+<div class="heading">
+    <h1>our blogs</h1>
+    </div>
+    <section class="blogs">
+        <h1 class="title"> our <span> blogs </span> <a href="blog.html"> view all</a></h1>
+     <div class="box-container">
+
+        <div class="box">
+            <div class="img">
+                <img src="blog 1.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+              <a href="blog.html"> <i class="fsa fa-calendar"></i> 1 nov, 2023 </a>
+              <a href="blog.html"> <i class="fsa fa-user"></i> by cakepark </a>
+
+            </div>
+            <h3> blogs title page</h3>
+            <p>Cake is a flour confection made from flour, sugar, and other ingredients, and is usually baked. In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate, and which share features with desserts such as pastries, meringues, custards, and pies.</p>
+            <a href="blog.html" class="btn">read more...</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="blog 2.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+              <a href="blog.html"> <i class="fsa fa-calendar"></i> 13 nov, 2023 </a>
+              <a href="blog.html"> <i class="fsa fa-user"></i> by cakepark </a>
+
+            </div>
+            <h3> blogs title page</h3>
+            <p>Making a homemade sponge cake was never so easy. Begin by mixing sugar and butter together. Whisk well until light and fluffy with a manual whisker or a fork. Once done, add the beaten eggs and blend well. Beat further so that the mixture turns white and creamy.
+
+            </p>
+            <a href="blog.html" class="btn">read more...</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="blog 3.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+              <a href="blog.html"> <i class="fsa fa-calendar"></i> 1 dec, 2023 </a>
+              <a href="blog.html"> <i class="fsa fa-user"></i> by cakepark </a>
+
+            </div>
+            <h3> blogs title page</h3>
+            <p>   cake dates back to ancient times. The first cakes were very different from what we eat today. They were more bread-like and sweetened with honey. Nuts and dried fruits were often added. According to the food historians, the ancient Egyptians were the first culture to show evidence of advanced baking skills</p>
+            
+            <a href="blog.html" class="btn">read more...</a>
+          </div>
+        </div>
+       
+        <div class="box">
+            <div class="img">
+                <img src="blog 4.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+              <a href="blog.html"> <i class="fsa fa-calendar"></i> 12 dec, 2023 </a>
+              <a href="blog.html"> <i class="fsa fa-user"></i> by cakepark </a>
+
+            </div>
+            <h3> blogs title page</h3>
+            <p>Cakes are frequently described according to their physical form. Cakes may be small and intended for individual consumption. Larger cakes may be made to be sliced and served as part of a meal or social function. Common shapes include:</p>
+            <a href="blog.html" class="btn">read more...</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="blog 5.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+              <a href="blog.html"> <i class="fsa fa-calendar"></i> 15 jan, 2023 </a>
+              <a href="blog.html"> <i class="fsa fa-user"></i> by cakepark </a>
+
+            </div>
+            <h3> blogs title page</h3>
+            <p> take a baking tin to cook the cake and grease it well using some butter or cooking spray. Then, sprinkle some maida or all-purpose flour on it. It will prevent the cake from sticking to the base. You can also line it with butter paper so that when the cake is baked, it can be taken out easily</p>
+            <a href="blog.html" class="btn">read more...</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="blog 6.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+              <a href="blog.html"> <i class="fsa fa-calendar"></i> 12 feb, 2023 </a>
+              <a href="blog.html"> <i class="fsa fa-user"></i> by cakepark </a>
+
+            </div>
+            <h3> blogs title page</h3>
+            <p> Pour the prepared cake batter into the prepared tin and place it on a stand in a pressure cooker. Do not add water to the cooker and ensure that the tin does not touch the base of the cooker</p>
+            <a href="blog.html" class="btn">read more...</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="blog 7.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+              <a href="blog.html"> <i class="fsa fa-calendar"></i> 15 feb, 2023 </a>
+              <a href="blog.html"> <i class="fsa fa-user"></i> by cakepark </a>
+
+            </div>
+            <h3> blogs title page</h3>
+            <p>To make whipping cream for a cake at home, all you need is a mixing bowl, some heavy whipping cream, powdered sugar, vanilla extract and an electric mixer. Take the bowl and add heavy whipping cream in it along with powdered sugar and vanilla extract in it. Whip them all together at medium-high speed. One must understand here that it should not be overdone. If the cream comes out grainy and curdled, it's a hint that you have over-whipped the cream. </p>
+            <a href="blog.html" class="btn">read more...</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="blog 8.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+              <a href="blog.html"> <i class="fsa fa-calendar"></i> 2 mar, 2023 </a>
+              <a href="blog.html"> <i class="fsa fa-user"></i> by cakepark </a>
+
+            </div>
+            <h3> blogs title page</h3>
+            <p>making a homemade sponge cake was never so easy. Begin by mixing sugar and butter together. Whisk well until light and fluffy with a manual whisker or a fork. Once done, add the beaten eggs and blend well. Beat further so that the mixture turns white and creamy</p>
+            <a href="blog.html" class="btn">read more...</a>
+          </div>
+        </div>
+     </div>
+</section>
+
+<!--contact-->
+<div class="heading">
+    <h1>contact us</h1>
+</div>
+ <section class="contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>9921459788</p>
+            <p>9134567898</p>
+        </div>
+ <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>123.karad@gmail.com</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our adress</h3>
+            <p>koparde haveli, tal-karad, dis-satara,maharashtra 415110</p>
+        </div>
+    </div>
+          <div class="row">
+            <form action="" method="POST">
+                <h3>Get in touch</h3>
+                <div class="inputBox">
+                <input type="text" placeholder="Enter your name" class="box">
+                <input type="text" placeholder="Enter your email" class="box">
+                <input type="text" placeholder="Enter your adress" class="box">
+                
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Enter your number" class="box">
+                    <input type="text" placeholder="Enter your fevourite flavour & design" class="box">
+                    <input type="text" placeholder="delivary adress" class="box">
+                    <tr>
+                    <td><select name="desingnation" id="designation">
+                        <option value="1">flavours of cake</option> <option value="1">flavours of cake</option>
+                        <option value="2">chocolate cake</option>
+                        <option value="3">rasmalai cake</option>
+                        <option value="4">cheese cake</option>
+                        <option value="5">pineapple cake</option>
+                        <option value="6">red velvet cake</option>
+                    </option></td>
+                    </tr>
+                </select>
+                     </tr>
+
+                    </select>
+                    </tr>
+                    </div>
+                    <textarea placeholder="your message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="send message" class="btn">
+            </form>
+          </div>
+    <div>
+    </section>
+        <div class="space"></div>
+
+
+
+</section>
+
+   <section class="credit">created by RRT
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
+
